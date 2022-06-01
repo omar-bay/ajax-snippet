@@ -13,8 +13,8 @@
                 url: 'https://reqres.in/api/products/3',
                 type: "GET",
                 success: function(data) {
-                    var x = JSON.stringify(data);
-                    document.getElementById("data").innerHTML = x;
+                    var res = JSON.stringify(data);
+                    document.getElementById("data").innerHTML = res;
                 },
                 error: function(error) {
                     console.log(`Error ${error}`);
